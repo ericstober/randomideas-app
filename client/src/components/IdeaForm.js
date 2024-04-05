@@ -39,7 +39,14 @@ class IdeaForm {
         </div>
         <div class="form-control">
           <label for="tag">Tag</label>
-          <input type="text" name="tag" id="tag" />
+          <select name="tag" id="tag">
+            <option value="technology">Technology</option>
+            <option value="software">Software</option>
+            <option value="business">Business</option>
+            <option value="education">Education</option>
+            <option value="health">Health</option>
+            <option value="inventions">Inventions</option>
+          </select>
         </div>
         <button class="btn" type="submit" id="submit">Submit</button>
       </form>

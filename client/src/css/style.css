@@ -62,7 +62,8 @@ header {
 }
 
 form input,
-form textarea {
+form textarea,
+form select {
   width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
