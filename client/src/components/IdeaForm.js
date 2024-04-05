@@ -14,7 +14,8 @@ class IdeaForm {
   async handleSubmit(e) {
     e.preventDefault();
 
-    if (!this._form.elements.text.value || !this._form.elements.tag.value || this._form.elements.username.value) {
+    if (!this._form.elements.text.value || !this._form.elements.tag.value || !this._form.elements.username.value
+    ) {
       alert('Please enter all fields');
       return;
     }
