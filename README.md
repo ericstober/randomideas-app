@@ -107,6 +107,7 @@ The production build will be put into the `public` folder, which is served by Ex
 
 ## Project Structure
 
+```
 randomideas-app/
 ├── client/ # Frontend source code
 ├── config/ # Configuration files
@@ -116,6 +117,7 @@ randomideas-app/
 ├── .env-example # Environment variable template
 ├── server.js # Entry point for the backend
 ├── package.json # Backend dependencies and scripts
+```
 
 ## License
 
