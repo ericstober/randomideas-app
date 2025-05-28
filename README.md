@@ -118,7 +118,3 @@ randomideas-app/
 ├── server.js # Entry point for the backend
 ├── package.json # Backend dependencies and scripts
 ```
-
-## License
-
-This project is licensed under the MIT License.
