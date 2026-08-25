@@ -18,5 +18,8 @@
   "devDependencies": {
     "braces": ">=3.0.3",
     "nodemon": "^3.1.4"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }
